@@ -3,6 +3,7 @@
 	margin: 0;
 	text-align: center;
 	color: #555;
+	user-select: none;
 }
 body{
 	background-image: url(./zbg.jpg);
@@ -12,13 +13,12 @@ body{
 	margin-bottom: 5vh;
 	line-height: 10vh;
 	letter-spacing: 15px;
-	text-indent: 15px;
 	font-family: "microsoft yahei";
 	
 }
 iframe{
 	border: none;
-	/* display: none; */
+	display: none;
 }
 .body{
 	height: 80vh;
