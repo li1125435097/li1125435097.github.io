@@ -1,6 +1,6 @@
 window.onload = function(){
-	handle = function(){
-		alert('aaa')
+	personInfo = function(){
+		alert()
 	}
 }
 	

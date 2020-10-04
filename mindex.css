@@ -2,34 +2,59 @@
 	padding: 0;
 	margin: 0;
 	text-align: center;
+	color: #555;
+}
+body{
+	background-image: url(./zbg.jpg);
 }
 .header{
 	height: 10vh;
-	border: solid 1px black;
+	margin-bottom: 5vh;
 	line-height: 10vh;
 	letter-spacing: 15px;
 	text-indent: 15px;
 	font-family: "microsoft yahei";
+	
+}
+iframe{
+	border: none;
+	/* display: none; */
 }
 .body{
-	height: 90vh;
+	height: 80vh;
 	display: flex;
 }
 .aside{
 	flex: 1;
-	border: solid 1px black;
 	min-width: 150px;
+}
+.aside div{
+	height: 6.8vh;
+	font-size: 16px;
+	line-height: 6.8vh;
+	letter-spacing: 2px;
+	text-indent: 2px;
+	font-weight: 500;
+	background-color: rgba(230,120,0,0.3);
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.4);
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+.aside div:hover{
+	background-color: rgba(230,120,0,0.5);
+}
+.aside div:active{
+	background-color: rgba(230,120,0,0.8);
 }
 .content{
 	flex: 7;
-	border: solid 1px black;
+	/* border: solid 1px black; */
 }
 .main{
 	height: 80vh;
 }
 .footer{
 	height: 10vh;
-	border: solid 1px black;
 	border-left: none;
 	display: none;
 }
